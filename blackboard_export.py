@@ -12,9 +12,9 @@ from getpass import getpass
 from os import path, makedirs
 import functools
 
-BB_DOMAIN = 'https://blackboard.utexas.edu'
+BB_DOMAIN = 'elearn.cuhk.edu.hk'
 BB_MOBILE_API = BB_DOMAIN + '/webapps/Bb-mobile-BBLEARN'
-LOGIN_URL = 'https://blackboard.utexas.edu/webapps/login/'
+LOGIN_URL = BB_DOMAIN + '/webapps/login/'
 COURSES_URL = BB_MOBILE_API + '/enrollments?course_type=COURSE'
 COURSE_MAP_URL = BB_MOBILE_API + '/courseMap'
 COURSE_DATA_URL = BB_MOBILE_API + '/courseData'
