@@ -12,7 +12,7 @@ from getpass import getpass
 from os import path, makedirs
 import functools
 
-BB_DOMAIN = 'elearn.cuhk.edu.hk'
+BB_DOMAIN = 'https://elearn.cuhk.edu.hk'
 BB_MOBILE_API = BB_DOMAIN + '/webapps/Bb-mobile-BBLEARN'
 LOGIN_URL = BB_DOMAIN + '/webapps/login/'
 COURSES_URL = BB_MOBILE_API + '/enrollments?course_type=COURSE'
