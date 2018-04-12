@@ -1,4 +1,4 @@
-# blackboard-export
+# blackboard-export by NasaGeek
 
 Python script to download all of a user's important course data from the Blackboard Learn LMS
 Works for all institute.
